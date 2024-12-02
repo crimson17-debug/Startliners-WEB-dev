@@ -1,0 +1,44 @@
+.card {
+    width: 400px;
+    border: 3px solid rgb(14, 0, 0);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(46, 2, 2);
+    color: peachpuff;
+   
+}
+
+img {
+    border: 2px solid rgb(36, 1, 1);
+    border-radius: 100px;
+    width: 100px;
+}
+.textalign{
+    text-align: center;
+}
+
+
+.dottedblack2 {
+    border: 2px solid rgba(14, 0, 0, 0.938);
+    border-radius: 20px;
+}
+
+.skills{
+    background-color: rgba(44, 16, 16, 0.877);
+}
+
+.main{
+    background-color: rgba(58, 7, 7, 0.692);
+    margin-bottom: 5px;
+}
+
+.skillsfont{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(133, 52, 52);
+}
+
+.insidefont{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
