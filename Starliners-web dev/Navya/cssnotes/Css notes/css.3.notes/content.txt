@@ -1,0 +1,10 @@
+this folder contains 
+1.folder for the html and css of amazon web page replica
+it only contains header, footer and content with the topics learnt in the previous css files.
+
+2.the concepts learned in this file. a html doc.
+visibility
+display property
+opacity
+
+3.the css of the the concepts and the html doc.

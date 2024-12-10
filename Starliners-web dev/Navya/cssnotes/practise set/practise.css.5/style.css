@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: aqua;
+    height: 20px;
+    padding: 10px 0px;
+}
+
+
+#outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: rgb(4, 43, 30);
+    padding: 10px;
+}
+
+#inner {
+    height: 490px;
+    width: 98%;
+    background-color: rgb(197, 160, 172);
+}

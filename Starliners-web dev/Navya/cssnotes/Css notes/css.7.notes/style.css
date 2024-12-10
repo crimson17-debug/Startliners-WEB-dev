@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#flex-container div{
+    width: 50px;
+    height: 30px;
+}
+
+@keyframes expand{
+    from{
+        width: 50px;
+    }
+
+    to{
+        width: 100px;
+    }
+}
+
+#flex-container div:hover{
+    animation: expand 0.5s ease-out 1 normal;
+}
+

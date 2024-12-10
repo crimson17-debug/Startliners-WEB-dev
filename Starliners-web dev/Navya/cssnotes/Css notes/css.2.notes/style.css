@@ -1,0 +1,14 @@
+
+    div {
+    text-align: center;
+    color: antiquewhite;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+body{
+    background-color: brown;
+}

@@ -1,0 +1,15 @@
+content:
+
+INSIGHTS:
+RELATIVE:
+The element is still in the document.
+so when i set the position to relative it basically shifted it's place but the space allocated was still fixed.
+
+ABSOLUTE:
+The element is out of the document.
+so when i set the position to absolute it basically shifted and moved to front and the space is taken by the next element.
+
+so the box i applied the absolute position is toping the other element.
+1.so i applied a padding of 3px to the box2 element and i expected the box1 to be at exact center. false.
+2.so i have to apply a top and left of 3px and see.
+

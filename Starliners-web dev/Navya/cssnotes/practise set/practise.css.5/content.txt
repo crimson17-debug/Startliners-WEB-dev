@@ -1,0 +1,16 @@
+
+
+I need to center the inner div using flex box 
+first i need a container and a item
+outer div is my container 
+inner div is my item
+so i am gonna display flex for container-----------------display flex
+make sure the item is at the center as well. -------use flex justify-content center
+and align the item at the center---------------alighn-items center --------------always along the cross axissss
+
+remember make a container with an item and then use all flex properties for the container only
+use self-allign for individual item or else for all the properties it should be the container...
+
+If both align-items (on the parent) and align-self (on the child) are defined, 
+the align-self value will be applied to the child item, overriding the parent’s align-items.
+

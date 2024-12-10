@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+   
+}
+
+#navbar {
+    background-color: rgb(14, 7, 26);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+ 
+}
+#navbar a{
+    margin-right: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+#top-foot-bar{
+    padding: 15px;
+    background-color: rgb(51, 44, 58);
+    text-align: center;
+}
+#content {
+
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#content-foot-bar {
+    background-color: rgb(31, 26, 34);
+    color: white;
+}
+#content-foot-bar a{
+    color: rgb(226, 195, 195);
+    line-height: 30px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+#content-foot-bar div{
+    width: 200px;
+    height: 300px;
+    padding: 0px 10px;
+}
+
+#content-foot-bar {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(51, 44, 58);
+}
+
+#second-bottom-foot-bar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    padding: 30px 5px;
+    background-color: rgb(31, 26, 34) ;
+
+}
+
+
+#second-bottom-foot-bar a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: arial;
+}
+
+#bottom-foot-bar {
+    padding: 20px 0px;
+    height: 20px;
+    background-color: rgb(14, 7, 26);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.box1 {
+    display: inline-block;
+    margin-left: 400px;
+    width: 200px;
+    height: 50px;
+    background-image: url(https://i0.wp.com/webbex.com.pk/wp-content/uploads/2022/11/amazon_PNG11.webp?fit=1024%2C373&ssl=1);
+    background-size: cover;
+    padding: 5px;
+}
+
+.box2 {
+
+    margin-left: 100px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(51, 44, 58);
+}
+
+.box3 {
+
+    margin-right: 300px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(51, 44, 58);
+}
+
+
+#content div{
+    margin: 1px 0px;
+    color: aqua;
+    border: 2px slolid black;
+    width: 10px;
+    height: 25px;
+}
+
+
+#flex-container {
+    height: 500px;
+    background-color: antiquewhite;
+}
+
+@keyframes expand{
+    from{
+        width: 10px;
+    }
+
+    to{
+        width: 100px;
+    }
+}
+
+ #flex-container #content div:hover{
+    animation: expand 1s ease-out 1 normal;
+}

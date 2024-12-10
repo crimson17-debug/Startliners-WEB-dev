@@ -1,0 +1,23 @@
+div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+
+/* the box is going to hidden but the space will be reserved*/
+#box3 {
+    visibility: hidden;
+}
+
+/* the box is going to completely removed from the document*/
+#box2 {
+    display: none;
+}
+
+/*the opacity is another property to set the transnperency.*/
+#box4 {
+    opacity: 0.5;
+}

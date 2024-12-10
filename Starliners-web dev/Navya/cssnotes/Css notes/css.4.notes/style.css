@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#navbar {
+    background-color: black;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+#navbar a{
+    margin-right: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 2px;
+    width:300px;
+    height: 50px;
+    color: aquamarine;
+    background-color: rgb(233, 95, 123);
+    border: 1px solid rgb(78, 3, 3);
+}
+
+
+#stick{
+    background-color: rgb(57, 49, 65);
+    position: sticky;
+    top: 60px;
+}
+#box1 {
+    position: relative;
+    top: 455px;
+
+}
+
+#box2{
+    position: absolute;
+    margin-top:400px ;
+}
+
+
+
+
